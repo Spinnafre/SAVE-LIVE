@@ -29,7 +29,18 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Expo](https://expo.io/)
 
 ## 💻 Projeto
+### :mahjong: Funcionalidades
 
+1. Login ONG
+2. Logout ONG
+3. Cadastrar nova ONG
+4. Cadastrar novos casos
+5. Listar Casos específicos da ONG
+6. Deletar casos
+7. Listar todos os casos - MOBILE
+8. Entrar em contato com a ONG (Whatsapp e Email) - MOBILE
+
+### :dart: Objetivo
 O saveLife é um projeto que visa conectar pessoas que desejam fazer contribuições monetárias a ONG's (Organizações não governamentais) que precisam de ajuda.
 
 
