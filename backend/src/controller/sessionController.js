@@ -12,6 +12,6 @@ module.exports = {
         if (!ong) {
             return res.status(400).json({ error: "Nenhuma ONG referenciada com o ID" })
         }
-        return res.json({id})
+        return res.json(ong)
     }
 }
