@@ -1,6 +1,6 @@
 # SAVE-LIVE
 <h1 align="center">
-    <img alt="DevRadar" title="#delicinha" src=".github/bethehero.svg" width="200px" />
+    <img alt="DevRadar" title="#delicinha" src="https://github.com/Spinnafre/SAVE-LIVE/blob/master/splash.png" width="200px" />
 </h1>
 
 <h4 align="center">
