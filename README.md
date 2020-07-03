@@ -7,7 +7,6 @@
 </p>
 <br>
 
-![saveLife](https://github.com/Spinnafre/SAVE-LIVE/blob/master/splash.png)
 
 ## :card_index:Tecnologias
 
