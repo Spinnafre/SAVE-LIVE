@@ -1,0 +1,92 @@
+.register-container{
+    height: 100vh;
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 50px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.register-container .content section{
+    width: 100%;
+    border-radius: 6px;
+    max-width: 380px;
+}
+.register-container .content {
+    width: 100%;
+    padding: 96px;
+    background: #f0f0f5;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-sizing: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+
+}
+.register-container .content section h1{
+    margin: 22px 0 22px;
+    font-size: 26px; 
+}
+.register-container .content section img{
+    width: 85%;
+}
+.register-container .content section p{
+    font-size: 18px;
+    color: #000;
+    line-height: 32px;
+}
+.register-container form.form input{
+    border-radius: 6px;
+    border: 1px solid #dcdce6;
+    height: 50px;
+    color: rgb(56, 53, 53);
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 100%;
+
+}
+.register-container form.form{
+    height: 350px;
+}
+.form-group{
+    display: flex;
+    
+}
+.form-group input+input{
+    margin-left: 8px;
+}
+
+.register-container form.form label{
+    font:700 1.2em Roboto,sans-serif;
+}
+@media(max-width:740px){
+    .register-container .content{
+        display: inline-block;
+    }
+    .register-container .content section{
+        margin-bottom: 22px;
+    }
+    .register-container .content section h1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .register-container .content section a{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .register-container .content section img{
+        width: 100%;
+    }
+}

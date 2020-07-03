@@ -1,0 +1,124 @@
+.new-incidents { 
+    width: 100%;
+    height: 100vh;
+    max-width: 1180px;
+    padding: 50px;
+    margin: 0px auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.new-incidents .content{
+    width: 100%;
+    padding: 90px;
+    background: #f0f0f5;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-sizing: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.new-incidents .content form textarea{
+    text-align: start;
+    border: 1px solid #d9d9dd;
+    min-height: 140px;
+    padding-top: 8px;
+    padding-left: 20px ;
+    color: rgb(56, 53, 53);
+    margin-top: 8px;
+    width: 100%;
+    line-height: 24px;
+    resize: vertical;
+    
+    
+
+}
+.new-incidents .content section img{
+    width: 85%;
+}
+.new-incidents .content section h1{
+    margin: 22px 0 22px;
+    font-size: 26px; 
+}
+.new-incidents .content section p{
+    font-size: 18px;
+    color: #000;
+    line-height: 32px;
+}
+.new-incidents .content form input{
+    text-align: start;
+    border: 1px solid #d9d9dd;
+    height: 50px;
+    padding-left: 20px;
+    color: rgb(56, 53, 53);
+    margin-top: 8px;
+    width: 100%;
+    border-radius: 6px;
+}
+.new-incidents .content .btn-group{
+    display: flex;
+}
+.new-incidents .content .btn-group .btn-cadastrar{
+    margin-top: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    
+    line-height: 18px;
+    color: white;
+    background-color:#7079f8;
+    width: 100%;
+    transition: filter 0.2s;
+}
+.new-incidents .content .btn-group .btn-cadastrar:hover{
+    filter: brightness(90%);
+}
+.new-incidents .content .btn-group .btn-cancelar{
+    margin-top: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-right:8px ;
+    
+    line-height: 18px;
+    color: rgb(56, 53, 53);
+    background-color:#f5f1f2;
+    width: 100%;
+    transition: filter 0.2s;
+}
+
+.new-incidents .content .btn-group .btn-cancelar:hover{
+    filter: brightness(90%);
+}
+.new-incidents .content section{ 
+    width: 100%;
+    border-radius: 6px;
+    max-width: 380px;
+}
+
+@media(max-width:860px){
+    .new-incidents .content section img{
+        width: 100%;
+    }
+    .new-incidents .content section h1,p{
+        display: none;
+    }
+    .new-incidents .content form{
+        margin-top: 30px;
+        
+    }
+    .new-incidents .content{
+        display: inline-block;
+
+    }
+    .new-incidents .content{
+        width: 80%;
+    }
+}

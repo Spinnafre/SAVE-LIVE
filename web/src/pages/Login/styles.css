@@ -1,0 +1,94 @@
+.form-container{
+    width: 100%;
+    height: 100vh;
+    max-width: 1120px;
+    margin: 0 auto;
+
+    padding: 60px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 20px;
+    grid-template-columns:  auto auto;
+    grid-template-rows: 1fr 1fr 30px;
+    grid-template-areas: 
+    "Form Logo "
+    "Form  Logo "
+    "Footer Footer "
+    ;
+    
+
+    
+}
+
+
+.form-container .form .form-cad{
+    width: 100%;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+.form-container section.form{
+    grid-area: Form;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    background-color: #ffffffcc;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 50px;
+    margin-right: 30px;
+
+}
+
+.form-container #img1{
+    width: 100%;
+}
+@media(max-width:740px){
+    .form-container #img2{
+        display: none;
+    }
+    .form-container{
+        grid-gap: 20px;
+        grid-template-columns:  auto ;
+        grid-template-rows: 1fr 1fr 30px;
+        grid-template-areas: 
+        "Form "
+        "Form "
+        "Footer";   
+    } 
+}
+.form-container #img2{
+    grid-area: Logo;
+    align-self: center;
+    width: 100%;
+}
+.form-container #Footer{
+    grid-area: Footer;
+    margin-top: 50px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+.form-container .form form{
+    margin-top: 100px;
+}
+.form-container .form form h1{
+    font-size: 30px;
+    color: #262626;
+    margin-bottom: 10px;
+}
+.form-container .form input{
+    border-radius: 10px;
+    border: 2px solid #b7b7c0bb;
+    height: 50px;
+    color: #262626;
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+.form-container .form label{
+    font:700 1.2em Roboto,sans-serif; 
+
+}
