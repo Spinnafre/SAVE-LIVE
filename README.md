@@ -4,7 +4,7 @@
 </h1>
 
 <h4 align="center">
-  🚀 Semana OmniStack 11.0
+   :pencil: Semana OmniStack 11.0
 </h4>
 
 <p align="center">
@@ -19,7 +19,7 @@
 
 ![saveLife](https://github.com/Spinnafre/SAVE-LIVE/blob/master/splash.png)
 
-## :rocket: Tecnologias
+## :card_index:Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -34,13 +34,5 @@ O saveLife é um projeto que visa conectar pessoas que desejam fazer contribuiç
 
 
 
-
-
-## :memo: Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
-
----
-
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+Feito com ♥ by D@vi$
 
