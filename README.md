@@ -2,13 +2,8 @@
 <h1 align="center">
     <img alt="DevRadar" title="#delicinha" src="https://github.com/Spinnafre/SAVE-LIVE/blob/master/splash.png" width="200px" />
 </h1>
-
-<h4 align="center">
-   :pencil: Semana OmniStack 11.0
-</h4>
-
 <p align="center">
-  <img alt="BeTheHero" src="https://github.com/Spinnafre/SAVE-LIVE/blob/master/saveLifeAPP.png" width="100%">
+  <img alt="BeTheHero" src="https://github.com/Spinnafre/SAVE-LIVE/blob/master/saveLifeAPP.png" width="80%">
 </p>
 <br>
 
