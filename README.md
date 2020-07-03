@@ -7,7 +7,9 @@
    :pencil: Semana OmniStack 11.0
 </h4>
 
-
+<p align="center">
+  <img alt="BeTheHero" src="https://github.com/Spinnafre/SAVE-LIVE/blob/master/saveLifeAPP.png" width="100%">
+</p>
 <br>
 
 ![saveLife](https://github.com/Spinnafre/SAVE-LIVE/blob/master/splash.png)
